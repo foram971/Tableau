@@ -1,148 +1,133 @@
 👋 Hi, I'm Foram Shah
 <p align="center"> <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWc1eWJjeTZjMzJsbXU0dTJ5dTJrc2llMzRoMWVrbXhuZHM2NnNkcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46Cy1rHbQ92uuLXa/giphy.gif" width="350" /> </p>
-📊 Job Market Analytics Dashboard (Tableau Project)
-<p align="center">
 
+# Job Market Analytics Dashboard (Tableau)
 
+## Overview
 
+This project analyzes job market data to identify trends across industries, job roles, required skills, salaries, and applicant demand.
 
+The goal is to provide a structured view of the job market that supports recruitment strategy, workforce planning, and compensation benchmarking.
 
+---
 
+## Objective
 
+* Identify hiring trends across industries and job levels
+* Analyze salary distribution across job roles
+* Understand the relationship between experience and job levels
+* Identify in-demand skills across postings
+* Compare job demand versus applicant supply
+* Deliver insights through an interactive dashboard
 
-</p>
-📌 Project Overview
+---
 
-This project analyzes job market data to uncover trends across industries, job roles, required skills, salaries, and applicant demand.
+## Dataset
 
-Using Tableau, the dataset is explored step-by-step and transformed into an interactive dashboard that helps organizations make informed recruitment and workforce planning decisions.
+The dataset contains job postings with the following attributes:
 
-🎯 Project Objective
+* Job Title
+* Industry
+* Years of Experience
+* Salary
+* Skills
+* Number of Applicants
+* Job Level
 
-• Identify hiring trends across industries and job levels
-• Analyze salary distribution across job roles
-• Understand relationship between experience and job levels
-• Identify in-demand skills for hiring strategies
-• Evaluate job demand vs applicant supply
-• Deliver clear, actionable insights through dashboards
+---
 
-📂 Dataset Overview
+## Approach
 
-The dataset includes job postings with key attributes such as:
+The analysis was performed in Tableau using a step-by-step approach:
 
-• Job Title
-• Industry
-• Years of Experience
-• Salary
-• Skills Required
-• Number of Applicants
-• Job Level
+* Industry-level analysis to identify applicant concentration
+* Experience versus job level analysis using distribution charts
+* Salary analysis across job roles
+* Skill demand analysis across postings
+* Demand analysis comparing postings and applicants
+* Time-based analysis of job postings
 
-📊 Key Analysis Performed
-🏢 Industry Analysis
+All visualizations were integrated into a single dashboard for exploration.
 
-• Identified industries attracting the highest number of applicants
-• Compared popularity across sectors
+---
 
-📈 Experience vs Job Level
+## Key Analysis
 
-• Analyzed relationship between experience and job levels
-• Used boxplots to understand distribution patterns
+### Industry Analysis
 
-💰 Salary Analysis
+Identified industries with the highest applicant demand and overall popularity.
 
-• Compared salaries across job roles
-• Evaluated salary trends based on experience
-• Example insight:
-➡ Average salary of Machine Learning Engineer (8 years experience)
+### Experience and Job Level
 
-🧠 Skill Demand Analysis
+Analyzed how experience requirements vary across job levels using distribution patterns.
 
-• Identified top in-demand skills across job postings
-• Highlighted skills required for competitive roles
+### Salary Analysis
 
-📉 Demand Analysis
+Compared salaries across roles and evaluated compensation trends.
 
-• Compared number of job postings vs applicants
-• Identified high-demand and high-competition roles
+### Skill Demand
 
-📅 Time-Based Analysis
+Identified the most frequently required skills across job postings.
 
-• Analyzed job postings over time
-• Identified hiring trends and seasonality
+### Demand vs Supply
 
-📊 Dashboard Features
+Compared number of postings with applicant volume to identify competitive roles.
 
-• Industry-wise applicant distribution
-• Job level vs experience analysis
-• Salary comparison by job title
-• Skill demand visualization
-• Demand vs supply insights
-• Time-based job posting trends
-• Interactive filters and drill-downs
+### Time Trends
 
-🔍 Key Insights
-1️⃣ Competitive Job Market
+Analyzed job posting trends over time to identify hiring patterns.
 
-• Certain industries attract significantly higher applicant volumes
-• Increased competition for popular roles
+---
 
-2️⃣ Salary Growth Varies by Role
+## Dashboard
 
-• Technical roles show stronger salary growth with experience
-• Salary progression differs across job categories
+The dashboard includes:
 
-3️⃣ High Demand for Data Roles
+* Industry-wise applicant distribution
+* Job level and experience analysis
+* Salary comparison by role
+* Skill demand analysis
+* Demand vs applicant comparison
+* Time-based hiring trends
 
-• Data Analyst and related roles show strong demand
-• Higher posting volume and applicant interest
+---
 
-4️⃣ Experience Insights
+## Key Insights
 
-• Mid to senior-level roles show wider experience distribution
-• Entry-level roles have more standardized requirements
+* Certain industries attract significantly higher applicant volumes
+* Salary growth varies across roles and experience levels
+* Data-related roles show consistently high demand
+* Mid and senior roles show wider experience variation
+* Hiring activity fluctuates over time with visible trends
 
-5️⃣ Yearly Hiring Trends
+---
 
-• Hiring patterns fluctuate over time
-• Seasonal trends observed in job postings
+## Business Value
 
-🏢 Business Value
+This analysis supports:
 
-This dashboard helps organizations:
+* Recruitment strategy and hiring prioritization
+* Salary benchmarking across roles
+* Identification of high-demand skills
+* Workforce planning decisions
 
-• Optimize hiring strategies
-• Identify skill gaps in the market
-• Benchmark salaries competitively
-• Improve workforce planning
-• Support leadership with data-driven insights
+---
 
-🚀 How to Use
+## Tools
 
-• Open Tableau workbook (.twbx / .twb)
-• Explore dashboard using filters
-• Drill down into specific industries, roles, and skills
+* Tableau
+* Excel (data source)
 
-💡 What I Learned
+---
 
-• Building advanced Tableau dashboards
-• Using boxplots for distribution analysis
-• Designing interactive and user-friendly visuals
-• Translating business questions into analytics
-• Storytelling with data for decision-making
+## Files
 
-📎 Project Files
+* Tableau workbook (.twb / .twbx)
+* Dataset
+* Project documentation
 
-• 📁 Tableau Workbook (.twbx)
-• 📄 Project Documentation (Word File)
-• 📊 Dataset ( Loan.csv )
+---
 
-🔗 Connect With Me
+## Conclusion
 
-• 💼 LinkedIn: https://www.linkedin.com/in/foramshahnimeshbhai
-
-• 💻 GitHub: https://github.com/foram971
-
-✨ Final Note
-
-“Understanding the job market through data enables smarter hiring decisions. This project transforms raw job data into actionable workforce insights.”
+This project demonstrates how job market data can be structured and analyzed to support data-driven hiring and workforce decisions.
